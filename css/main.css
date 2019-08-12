@@ -140,7 +140,6 @@ nav {
   margin-left: 32px;
 }
 .about-container {
-  height: 1500px;
 }
 /* i have a problem here */
 .card {
@@ -183,7 +182,13 @@ nav {
 .card__text__info {
   line-height: 20px;
 
-  margin-top: 0;
+  margin: 0;
   color: rgba(119, 119, 119, 255);
   font-size: 14px;
+}
+.footer__title {
+  font-size: 14px;
+  color: rgba(85, 85, 85, 255);
+  text-align: center;
+  margin-top: 100px;
 }
