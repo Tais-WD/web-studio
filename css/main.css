@@ -142,9 +142,11 @@ nav {
 .about-container {
   height: 1500px;
 }
+/* i have a problem here */
 .flex1,
 .flex2 {
   display: flex;
+  /* don't understand why align content doesn't work */
   align-content: space-between;
 }
 .flex1 {
