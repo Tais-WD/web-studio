@@ -143,10 +143,10 @@ nav {
   height: 1500px;
 }
 /* i have a problem here */
-.flex1,
-.flex2 {
+.card {
   display: flex;
   /* don't understand why align content doesn't work */
+  padding-top: 90px;
   align-content: space-between;
 }
 .flex1 {
@@ -154,20 +154,36 @@ nav {
 .flex2 {
   justify-content: flex-end;
 }
+
 .card__img {
   width: 190px;
   height: 190px;
 }
-.card__text__title {
+.card__text__title1,
+.card__text__title2 {
+  padding-bottom: 13px;
+  font-size: 18px;
   margin: 0;
+  color: rgba(34, 34, 34, 255);
+}
+.card__text__title1 {
+  text-transform: uppercase;
 }
 .card__text {
   width: 375px;
-  display: inline;
+}
+.left-text {
+  text-align: right;
+  padding-right: 40px;
+}
+.right-text {
+  text-align: left;
+  padding-left: 40px;
 }
 .card__text__info {
-  width: 280px;
-  line-break: 14px;
+  line-height: 20px;
+
+  margin-top: 0;
   color: rgba(119, 119, 119, 255);
   font-size: 14px;
 }
