@@ -139,3 +139,33 @@ nav {
 .works img:nth-child(2) {
   margin-left: 32px;
 }
+.about-container {
+  height: 1500px;
+}
+.flex1,
+.flex2 {
+  display: flex;
+  align-content: space-between;
+}
+.flex1 {
+}
+.flex2 {
+  justify-content: flex-end;
+}
+.card__img {
+  width: 190px;
+  height: 190px;
+}
+.card__text__title {
+  margin: 0;
+}
+.card__text {
+  width: 375px;
+  display: inline;
+}
+.card__text__info {
+  width: 280px;
+  line-break: 14px;
+  color: rgba(119, 119, 119, 255);
+  font-size: 14px;
+}
